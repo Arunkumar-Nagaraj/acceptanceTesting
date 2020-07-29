@@ -1,5 +1,6 @@
 # protractor-cucumber-example
-Example project using Protractor with Cucumber and Page Objects
+Example project using Protractor with Cucumber and Page Objects. 
+
 This creates the cucumber tests to cover the test weather forecast application
 
 ## Getting Started
