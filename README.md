@@ -33,4 +33,3 @@ npm run start
 ```
 npm run protractor
 ```
-### This command will execute all the scenarios inside the feature file
