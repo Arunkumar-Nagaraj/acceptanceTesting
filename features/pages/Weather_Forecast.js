@@ -97,6 +97,8 @@ var WeatherForecastValidation = function () {
       Math.round(mode(new_array))
       console.log('Most Dominant wind speed --> ',mode(new_array).toString().concat('kph'))
       element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'speed\')]/../../../../div/span[4]/span[1][@class=\'speed\']')).getText().then(function (dominantwind) {
+        console.log(dominantwind)
+        console.log('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'speed\')]/../../../../div/span[4]/span[1][@class=\'speed\']')
         expect(dominantwind.toString()).to.equal(mode(new_array).toString().concat('kph'))
       })
     })
@@ -123,10 +125,14 @@ var WeatherForecastValidation = function () {
                 arr.filter(v => v===a).length
                 - arr.filter(v => v===b).length
             ).pop();
+            console.log(popArray.toString())
           console.log('The selected day weather conditions ',arr)
           console.log('The selected day is a ',popArray,' day')
           element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span[2]/*[local-name() = "svg"]/../../../../div/span[2]/*[local-name() = "svg"]')).getAttribute('aria-label').then(function (dominantcondition) {
+            console.log(dominantcondition)
+            console.log('//span[text()=\''+value+'\']/../../../div[2]/div/span[2]/*[local-name() = "svg"]/../../../../div/span[2]/*[local-name() = "svg"]');
             expect(dominantcondition.toString()).to.equal(popArray.toString())
+            console.log(dominantcondition)
           })
         })
   };

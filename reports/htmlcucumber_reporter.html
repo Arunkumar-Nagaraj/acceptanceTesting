@@ -137,7 +137,7 @@ div.chart div div svg rect {
     fill: #f5f5f5;
 }
 
-table.arguments {
+.arguments {
     margin-left: 30px;
     margin-top: 1em;
 }
@@ -148,10 +148,6 @@ table.arguments {
 
 .screenshot {
     padding: 2% 0 2% 0;
-}
-
-.scenarioTitle {
-    width: 80%
 }
 
 .description {
@@ -235,6 +231,10 @@ pre {
     background-color: transparent;
 }
 
+.show-modal:hover {
+    background-color: #f0f0f0;
+}
+
 .footer-link {
     font-size: 13px;
     float: right;
@@ -247,11 +247,15 @@ pre {
 .steps {
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: -9px;
+    margin-bottom: -4px;
 }
 
 .all-features {
     padding-top: 0.6em;
+}
+
+.keyword {
+    color: #616161;
 }
 
     </style>
@@ -266,7 +270,7 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">protractor-cucumber-example</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 6</span>
+            <span class="label label-success" title=scenarios>Passed: 4</span>
             <span class="label label-danger" title=scenarios>Failed: 0</span>
           </div>
         </div>
@@ -275,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Mon Sep 02 2019 23:55:42 GMT+0100 (BST)</div>
+      <div class="generated-on">Wed Jul 29 2020 23:18:48 GMT+0100 (British Summer Time)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -286,927 +290,275 @@ pre {
 
       
 
-<div class="row">
-
-  <div class="col-lg-6 col-md-6">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-            <div class="tags"> </div>
-          <a data-toggle="collapse" href="#collapseFeature0">
-            <i class="glyphicon glyphicon-chevron-right"></i>
-            <i class="glyphicon glyphicon-chevron-down"></i>
-            <b>Feature:</b>Verify the functionality of weather forecasting application
-            <span class="label-container">
-              <span class="label label-success" title="Passed">6</span>
-              
-              
-              
-              
-              
-            </span>
-          </a>
-        </h4>
-      </div>
-      <div id="collapseFeature0" class="panel-collapse collapse">
-        <div class="panel-body">
-         
-          
-            <div class="panel panel-default">
-              <div class="panel-heading">
+<div class="row" xmlns="http://www.w3.org/1999/html">
+    
+    <div class="col-lg-6 col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
                 <h4 class="panel-title">
-                  
-                    <div class="tags"> <span class="tag"> @all</span>  <span class="tag"> @weather-12</span>  </div>
-                  <a data-toggle="collapse" href="#collapseScenario0_0">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                    <b>Scenario:</b>Verify the default city name is displayed when refreshing the page
-                    <span class="label-container">
-                      <span class="label label-success" title="Passed">5</span>
-                      
-                      
-                      
-                      
-                      
-                    </span>
-                  </a>
+                    
+                    <div class="tags">
+                    </div>
+                    
+                    <a data-toggle="collapse" href="#collapseFeatureprotractor_cucumber_example0">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                        <b>Feature:</b>Verify the functionality of weather forecasting application
+                        <span class="label-container">
+              <span class="label label-success"
+                                                         title="4 Scenarios Passed">4</span>
+              
+              
+              
+              
+              
+                        </span>
+                    </a>
                 </h4>
-              </div>
-              <div id="collapseScenario0_0" class="panel-collapse collapse">
-                <div class="panel-body">
-                  
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Given </span>
-                        <span > Application is open</span>
-                          
-                              <span class="step-duration">
-                               766ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">When </span>
-                        <span > I enter the aberdeen and click on submit</span>
-                          
-                              <span class="step-duration">
-                               3ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the five day whether forecast</span>
-                          
-                              <span class="step-duration">
-                               1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I refresh the page</span>
-                          
-                              <span class="step-duration">
-                               1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the default city name in input search field</span>
-                          
-                              <span class="step-duration">
-                               1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                </div>
-              </div>
             </div>
-          
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  
-                    <div class="tags"> <span class="tag"> @all</span>  <span class="tag"> @weather-12</span>  </div>
-                  <a data-toggle="collapse" href="#collapseScenario0_1">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                    <b>Scenario:</b>Verify the default city name is displayed when refreshing the page
-                    <span class="label-container">
-                      <span class="label label-success" title="Passed">5</span>
-                      
-                      
-                      
-                      
-                      
-                    </span>
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseScenario0_1" class="panel-collapse collapse">
+            <div id="collapseFeatureprotractor_cucumber_example0" class="panel-collapse collapse">
                 <div class="panel-body">
-                  
-                  
                     
-                    <p class="scenario-container">
-                    <div class="row steps">
                     
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags"> <span class="tag"> @tag</span>
+                                     <span class="tag"> @test9</span>
+                                    
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioprotractor_cucumber_example0_0">
+                                    <div>
+
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Verify that the user is getting error message in case of invalid city
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="3 Steps Passed">3</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioprotractor_cucumber_example0_0"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">Given </span>
-                        <span > Application is open</span>
+                          <span> Application is open</span>
+                            
                           
                               <span class="step-duration">
-                               1s 9ms
+                               964ms
                               </span>
                             
                          
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">When </span>
-                        <span > I enter the dundee and click on submit</span>
+                          <span> I enter an invalid city name-abcd and click on submit</span>
+                            
                           
                               <span class="step-duration">
-                               1ms
+                               5ms
                               </span>
                             
                          
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">Then </span>
-                        <span > I should get the five day whether forecast</span>
+                          <span> I should get the message Error retrieving the forecast</span>
+                            
                           
                               <span class="step-duration">
-                               <1ms
+                               802ms
                               </span>
                             
                          
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
                     
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I refresh the page</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags"> <span class="tag"> @tag</span>
+                                     <span class="tag"> @test9</span>
+                                    
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioprotractor_cucumber_example0_1">
+                                    <div>
 
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the default city name in input search field</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                </div>
-              </div>
-            </div>
-          
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  
-                    <div class="tags"> <span class="tag"> @all</span>  <span class="tag"> @weather-12</span>  </div>
-                  <a data-toggle="collapse" href="#collapseScenario0_2">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                    <b>Scenario:</b>Verify the default city name is displayed when refreshing the page
-                    <span class="label-container">
-                      <span class="label label-success" title="Passed">5</span>
-                      
-                      
-                      
-                      
-                      
-                    </span>
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseScenario0_2" class="panel-collapse collapse">
-                <div class="panel-body">
-                  
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Verify that the user is getting error message in case of invalid city
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="3 Steps Passed">3</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioprotractor_cucumber_example0_1"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">Given </span>
-                        <span > Application is open</span>
+                          <span> Application is open</span>
+                            
                           
                               <span class="step-duration">
-                               842ms
+                               443ms
                               </span>
                             
                          
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">When </span>
-                        <span > I enter the Glasgow and click on submit</span>
-                          
-                              <span class="step-duration">
-                               1ms
-                              </span>
+                          <span> I enter an invalid city name-1234 and click on submit</span>
                             
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the five day whether forecast</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I refresh the page</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the default city name in input search field</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                </div>
-              </div>
-            </div>
-          
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  
-                    <div class="tags"> <span class="tag"> @all</span>  <span class="tag"> @weather-12</span>  </div>
-                  <a data-toggle="collapse" href="#collapseScenario0_3">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                    <b>Scenario:</b>Verify the default city name is displayed when refreshing the page
-                    <span class="label-container">
-                      <span class="label label-success" title="Passed">5</span>
-                      
-                      
-                      
-                      
-                      
-                    </span>
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseScenario0_3" class="panel-collapse collapse">
-                <div class="panel-body">
-                  
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Given </span>
-                        <span > Application is open</span>
-                          
-                              <span class="step-duration">
-                               801ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">When </span>
-                        <span > I enter the perth and click on submit</span>
-                          
-                              <span class="step-duration">
-                               1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the five day whether forecast</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I refresh the page</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the default city name in input search field</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                </div>
-              </div>
-            </div>
-          
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  
-                    <div class="tags"> <span class="tag"> @all</span>  <span class="tag"> @weather-12</span>  </div>
-                  <a data-toggle="collapse" href="#collapseScenario0_4">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                    <b>Scenario:</b>Verify the default city name is displayed when refreshing the page
-                    <span class="label-container">
-                      <span class="label label-success" title="Passed">5</span>
-                      
-                      
-                      
-                      
-                      
-                    </span>
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseScenario0_4" class="panel-collapse collapse">
-                <div class="panel-body">
-                  
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Given </span>
-                        <span > Application is open</span>
-                          
-                              <span class="step-duration">
-                               806ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">When </span>
-                        <span > I enter the stirling and click on submit</span>
-                          
-                              <span class="step-duration">
-                               1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the five day whether forecast</span>
                           
                               <span class="step-duration">
                                2ms
@@ -1216,161 +568,299 @@ pre {
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">Then </span>
-                        <span > I refresh the page</span>
+                          <span> I should get the message Error retrieving the forecast</span>
+                            
                           
                               <span class="step-duration">
-                               <1ms
+                               801ms
                               </span>
                             
                          
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
                     
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the default city name in input search field</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags"> <span class="tag"> @tag</span>
+                                     <span class="tag"> @test9</span>
+                                    
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioprotractor_cucumber_example0_2">
+                                    <div>
 
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                </div>
-              </div>
-            </div>
-          
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  
-                    <div class="tags"> <span class="tag"> @all</span>  <span class="tag"> @weather-12</span>  </div>
-                  <a data-toggle="collapse" href="#collapseScenario0_5">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                    <b>Scenario:</b>Verify the default city name is displayed when refreshing the page
-                    <span class="label-container">
-                      <span class="label label-success" title="Passed">5</span>
-                      
-                      
-                      
-                      
-                      
-                    </span>
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseScenario0_5" class="panel-collapse collapse">
-                <div class="panel-body">
-                  
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Verify that the user is getting error message in case of invalid city
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="3 Steps Passed">3</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioprotractor_cucumber_example0_2"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">Given </span>
-                        <span > Application is open</span>
+                          <span> Application is open</span>
+                            
                           
                               <span class="step-duration">
-                               865ms
+                               420ms
                               </span>
                             
                          
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">When </span>
-                        <span > I enter the edinburgh and click on submit</span>
+                          <span> I enter an invalid city name-!@££$% and click on submit</span>
+                            
+                          
+                              <span class="step-duration">
+                               2ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> I should get the message Error retrieving the forecast</span>
+                            
+                          
+                              <span class="step-duration">
+                               836ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags"> <span class="tag"> @tag</span>
+                                     <span class="tag"> @test9</span>
+                                    
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioprotractor_cucumber_example0_3">
+                                    <div>
+
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Verify that the user is getting error message in case of invalid city
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="3 Steps Passed">3</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioprotractor_cucumber_example0_3"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> Application is open</span>
+                            
+                          
+                              <span class="step-duration">
+                               302ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I enter an invalid city name-ab@£#12 and click on submit</span>
+                            
                           
                               <span class="step-duration">
                                1ms
@@ -1380,133 +870,67 @@ pre {
                             
                           
                       </span>
-                    
-                      
+                                
+                                
 
-                      
+                                    
 
-                      
+                                    
 
-                       
+                                    
 
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
                         <span class="keyword highlight">Then </span>
-                        <span > I should get the five day whether forecast</span>
+                          <span> I should get the message Error retrieving the forecast</span>
+                            
                           
                               <span class="step-duration">
-                               <1ms
+                               708ms
                               </span>
                             
                          
                             
                           
                       </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
                     
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
                 </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I refresh the page</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    <div class="row steps">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Then </span>
-                        <span > I should get the default city name in input search field</span>
-                          
-                              <span class="step-duration">
-                               <1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                </div>
-                    
-                  
-                </div>
-              </div>
             </div>
-          
         </div>
-      </div>
     </div>
-  </div>
-  
+    
 </div>
-  
+
 
 
 
@@ -1534,13 +958,16 @@ pre {
                                                             "title" : "Features",
                                                             "failed" : 0,
                                                             "passed" : 1,
+                                                            "notdefined" : 0,
+                                                            "pending" : 0,
+                                                            "skipped" : 0,
                                                             "ambiguous" : 0
                                                         })
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
                                                             "failed" : 0,
-                                                            "passed" : 6,
+                                                            "passed" : 4,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
@@ -1558,20 +985,9 @@ pre {
         $(this).prev().addClass('open');
     });
 
-    $('a.toggle').on('click', function() {
-        if ($(this).text() === 'Screenshot -') {
-            $(this).text('Screenshot +');
-            $(this).next('a.screenshot').find('img').hide();
-        } else {
-            $(this).text('Screenshot -');
-            $(this).next('a.screenshot').find('img').show();
-        }
-    });
     var $generated = $('.generated-on');
 
     $generated.text('Generated ' + moment($generated.text()).fromNow());
-
-
 });
 
       function drawChart(chartData) {
@@ -1619,6 +1035,23 @@ pre {
     var chart = new google.visualization.PieChart(document.getElementById('piechart_' + chartData.title.toLowerCase()));
     chart.draw(data, options);
 }
+      $('a.toggle').on('click', function() {
+
+    if ($(this).text() === 'Screenshot -') {
+        // $(this).text('Screenshot +');
+        $(this).next('a.screenshot').find('img').hide();
+    } else if($(this).text() === 'Screenshot +') {
+        // $(this).text('Screenshot -');
+        $(this).next('a.screenshot').find('img').show();
+    }
+
+    if ($(this).text().includes(' -')) {
+        $(this).text($(this).text().replace(' -', ' +'));
+    } else {
+        $(this).text($(this).text().replace(' +', ' -'));
+    }
+});
+
     </script>
   </body>
 </html>
