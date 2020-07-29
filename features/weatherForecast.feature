@@ -125,7 +125,7 @@ Feature: Verify the functionality of weather forecasting application
 
 
   @tag @test8
-  Scenario Outline: Hide hourly forecast of a day
+  Scenario Outline: Hide hourly forecast
     Given Application is open
     When I enter the <City name> and click on submit
     Then I should get the five day whether forecast
