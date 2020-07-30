@@ -158,6 +158,3 @@ Feature: Verify the functionality of weather forecasting application
       | perth     |
       | stirling  |
       | edinburgh |
-
-
-    
