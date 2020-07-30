@@ -23,7 +23,7 @@ exports.config = {
   },
   cucumberOpts: {
     require: ['env.js', 'features/steps/steps.js'],
-    tags: '@tag',
+    tags: '@weather',
     format: 'json:./reports/json/cucumber_report.json',
     dryRun: false,
   },
