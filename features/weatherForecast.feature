@@ -1,6 +1,6 @@
 Feature: Verify the functionality of weather forecasting application
 
-  @tag @test1
+  @weather @test1
   Scenario Outline: Retrieve 5 day weather forecast of the city
     Given Application is open
     When I enter the <City name> and click on submit
@@ -16,7 +16,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  |
       | edinburgh |
 
-  @tag @test2
+  @weather @test2
   Scenario Outline: Retrieve hourly forecast of a day
     Given Application is open
     When I enter the <City name> and click on submit
@@ -33,7 +33,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
-  @tag @test3
+  @weather @test3
   Scenario Outline: Display weather forecast in 3 hour format
     Given Application is open
     When I enter the <City name> and click on submit
@@ -51,7 +51,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
-  @tag @test4
+  @weather @test4
   Scenario Outline: Daily forecast to provide 3 hour format for maximum and minimum temperature
     Given Application is open
     When I enter the <City name> and click on submit
@@ -69,7 +69,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
-  @tag @test5
+  @weather @test5
   Scenario Outline: Summarise aggregate rainfall
     Given Application is open
     When I enter the <City name> and click on submit
@@ -87,7 +87,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
-  @tag @test6
+  @weather @test6
   Scenario Outline: Summarise most dominant condition
     Given Application is open
     When I enter the <City name> and click on submit
@@ -105,7 +105,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
-  @tag @test7
+  @weather @test7
   Scenario Outline: Summarise most dominant wind speed and direction
     Given Application is open
     When I enter the <City name> and click on submit
@@ -123,8 +123,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
-
-  @tag @test8
+  @weather @test8
   Scenario Outline: Hide hourly forecast
     Given Application is open
     When I enter the <City name> and click on submit
@@ -142,7 +141,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
-  @tag @test9
+  @weather @test9
   Scenario Outline: Verify the default city name is displayed when refreshing the page
     Given Application is open
     When I enter the <City name> and click on submit
@@ -159,3 +158,6 @@ Feature: Verify the functionality of weather forecasting application
       | perth     |
       | stirling  |
       | edinburgh |
+
+
+    
