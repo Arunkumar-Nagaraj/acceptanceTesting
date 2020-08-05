@@ -159,7 +159,7 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  |
       | edinburgh |
 
-  @weather @test10
+  @weather @test10 @nagativeScenario
   Scenario Outline: Verify the error message for any other random city
     Given Application is open
     When I enter an random city name <City name>
@@ -171,7 +171,7 @@ Feature: Verify the functionality of weather forecasting application
       | croydon   | Error retrieving the forecast  |
       | reading   | Error retrieving the forecast  |
 
-  @weather @test11
+  @weather @test11 @nagativeScenario
   Scenario Outline: Verify that the user is getting error message when submitting without entering any input
     Given Application is open
     When I submit without entering any input
