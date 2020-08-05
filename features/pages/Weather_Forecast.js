@@ -87,19 +87,17 @@ var WeatherForecastValidation = function () {
       new_array.pop()
       console.log('wind speed',new_array)
 
-      function mode(arr){
-        return arr.sort((a,b) =>
-            arr.filter(v => v===a).length
-            - arr.filter(v => v===b).length
-        ).pop();
+      let sorted_arr = new_array.sort();
+      let results = [];
+      for (let i = 0; i < sorted_arr.length - 1; i++) {
+        if (sorted_arr[i + 1] == sorted_arr[i]) {
+          results.push(sorted_arr[i]);
+        }
       }
-      // mode(new_array)
-      Math.round(mode(new_array))
-      console.log('Most Dominant wind speed --> ',mode(new_array).toString().concat('kph'))
       element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'speed\')]/../../../../div/span[4]/span[1][@class=\'speed\']')).getText().then(function (dominantwind) {
         console.log(dominantwind)
         console.log('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'speed\')]/../../../../div/span[4]/span[1][@class=\'speed\']')
-        expect(dominantwind.toString()).to.equal(mode(new_array).toString().concat('kph'))
+        expect(dominantwind.toString()).to.equal(results[0].toString().concat('kph'))
       })
     })
   };

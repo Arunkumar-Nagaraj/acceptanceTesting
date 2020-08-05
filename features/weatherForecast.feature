@@ -158,3 +158,26 @@ Feature: Verify the functionality of weather forecasting application
       | perth     |
       | stirling  |
       | edinburgh |
+
+  @weather @test10
+  Scenario Outline: Verify the error message for any other random city
+    Given Application is open
+    When I enter an random city name <City name>
+    Then I should get the message <Error Message Text>
+
+    Examples:
+
+      | City name | Error Message Text             |
+      | croydon   | Error retrieving the forecast  |
+      | reading   | Error retrieving the forecast  |
+
+  @weather @test11
+  Scenario Outline: Verify that the user is getting error message when submitting without entering any input
+    Given Application is open
+    When I submit without entering any input
+    Then I should get the message <Error Message Text>
+
+    Examples:
+
+      | Error Message Text             |
+      | Error retrieving the forecast  |

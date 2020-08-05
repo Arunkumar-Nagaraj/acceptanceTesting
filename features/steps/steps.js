@@ -82,7 +82,7 @@ var WeatherFunctions = function () {
       })}
     })
   })
-  this.Given(/^I enter an invalid city name-(.*) and click on submit$/, function (city) {
+  this.Given(/^I enter an random city name (.*)$/, function (city) {
     browser.findElement(by.xpath("//input[@id='city']")).clear();
     browser.findElement(by.xpath("//input[@id='city']")).sendKeys(city);
     browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER);
@@ -104,8 +104,10 @@ var WeatherFunctions = function () {
   this.Given(/^I submit without entering any input$/, function () {
     browser.$('#city').clear().then(function () {
       browser.sleep(2000);
-      //browser.$('#city').submit();
-      browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER);
+      browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER)
+      browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.CONTROL,"a");
+      browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.DELETE);
+      browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER)
       browser.sleep(2000);
     })
   })

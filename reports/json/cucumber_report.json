@@ -1,0 +1,4488 @@
+[
+  {
+    "elements": [
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-5-day-weather-forecast-of-the-city",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Retrieve 5 day weather forecast of the city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 1532732100
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 10489199
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1839200
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 3
+          },
+          {
+            "name": "@test1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-5-day-weather-forecast-of-the-city",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Retrieve 5 day weather forecast of the city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 1413880200
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2118599
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1403001
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 3
+          },
+          {
+            "name": "@test1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-5-day-weather-forecast-of-the-city",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Retrieve 5 day weather forecast of the city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 1393192401
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1767901
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1727900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 3
+          },
+          {
+            "name": "@test1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-5-day-weather-forecast-of-the-city",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Retrieve 5 day weather forecast of the city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 1297887300
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1019600
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 511399
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 3
+          },
+          {
+            "name": "@test1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-5-day-weather-forecast-of-the-city",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Retrieve 5 day weather forecast of the city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 1273515701
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1317300
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 544299
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 3
+          },
+          {
+            "name": "@test1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-5-day-weather-forecast-of-the-city",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Retrieve 5 day weather forecast of the city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2155384401
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1633701
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 879200
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 3
+          },
+          {
+            "name": "@test1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2230810800
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2130600
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 889500
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2931000
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 19
+          },
+          {
+            "name": "@test2",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4442369900
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1903700
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 896700
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2016700
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 19
+          },
+          {
+            "name": "@test2",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4439732700
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 3983100
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2298500
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 5032200
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 19
+          },
+          {
+            "name": "@test2",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4128371700
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1289900
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1082500
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1965400
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 19
+          },
+          {
+            "name": "@test2",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4214913899
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2220300
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1743099
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 6842100
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 19
+          },
+          {
+            "name": "@test2",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4436923501
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 4925800
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1180199
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3424400
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 19
+          },
+          {
+            "name": "@test2",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;display-weather-forecast-in-3-hour-format",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Display weather forecast in 3 hour format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4454761800
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1712700
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 828000
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1867600
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate displayed forecast of the selected Wed is in 3 hourly format",
+            "result": {
+              "status": "passed",
+              "duration": 357200
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:36"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 36
+          },
+          {
+            "name": "@test3",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;display-weather-forecast-in-3-hour-format",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Display weather forecast in 3 hour format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4616820300
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2345701
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 613299
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1899300
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate displayed forecast of the selected Sat is in 3 hourly format",
+            "result": {
+              "status": "passed",
+              "duration": 337700
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:36"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 36
+          },
+          {
+            "name": "@test3",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;display-weather-forecast-in-3-hour-format",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Display weather forecast in 3 hour format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4506938200
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 3858900
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1090800
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4259800
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate displayed forecast of the selected Tue is in 3 hourly format",
+            "result": {
+              "status": "passed",
+              "duration": 511200
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:36"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 36
+          },
+          {
+            "name": "@test3",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;display-weather-forecast-in-3-hour-format",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Display weather forecast in 3 hour format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4460205700
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2203401
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 778901
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3456901
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate displayed forecast of the selected Wed is in 3 hourly format",
+            "result": {
+              "status": "passed",
+              "duration": 311400
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:36"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 36
+          },
+          {
+            "name": "@test3",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;display-weather-forecast-in-3-hour-format",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Display weather forecast in 3 hour format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4514652600
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1689300
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 816800
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4755399
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate displayed forecast of the selected Thu is in 3 hourly format",
+            "result": {
+              "status": "passed",
+              "duration": 308700
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:36"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 36
+          },
+          {
+            "name": "@test3",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;display-weather-forecast-in-3-hour-format",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Display weather forecast in 3 hour format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4712250600
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1358000
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 545901
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2373100
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate displayed forecast of the selected Thu is in 3 hourly format",
+            "result": {
+              "status": "passed",
+              "duration": 245599
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:36"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 36
+          },
+          {
+            "name": "@test3",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;daily-forecast-to-provide-3-hour-format-for-maximum-and-minimum-temperature",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Daily forecast to provide 3 hour format for maximum and minimum temperature",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4596953800
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1525900
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 626601
+            },
+            "line": 58,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2543500
+            },
+            "line": 59,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the Minimum and maximum temperature of the selected Wed",
+            "result": {
+              "status": "passed",
+              "duration": 458800
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:39"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 54
+          },
+          {
+            "name": "@test4",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;daily-forecast-to-provide-3-hour-format-for-maximum-and-minimum-temperature",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Daily forecast to provide 3 hour format for maximum and minimum temperature",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4859699300
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1424800
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1107300
+            },
+            "line": 58,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2829900
+            },
+            "line": 59,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the Minimum and maximum temperature of the selected Sat",
+            "result": {
+              "status": "passed",
+              "duration": 460100
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:39"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 54
+          },
+          {
+            "name": "@test4",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;daily-forecast-to-provide-3-hour-format-for-maximum-and-minimum-temperature",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Daily forecast to provide 3 hour format for maximum and minimum temperature",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4615587300
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1456800
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 793401
+            },
+            "line": 58,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4012000
+            },
+            "line": 59,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the Minimum and maximum temperature of the selected Tue",
+            "result": {
+              "status": "passed",
+              "duration": 264500
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:39"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 54
+          },
+          {
+            "name": "@test4",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;daily-forecast-to-provide-3-hour-format-for-maximum-and-minimum-temperature",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Daily forecast to provide 3 hour format for maximum and minimum temperature",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4425963800
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1161601
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 477500
+            },
+            "line": 58,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2422400
+            },
+            "line": 59,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the Minimum and maximum temperature of the selected Wed",
+            "result": {
+              "status": "passed",
+              "duration": 224399
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:39"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 54
+          },
+          {
+            "name": "@test4",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;daily-forecast-to-provide-3-hour-format-for-maximum-and-minimum-temperature",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "Daily forecast to provide 3 hour format for maximum and minimum temperature",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4487934900
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1846700
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 548100
+            },
+            "line": 58,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1899799
+            },
+            "line": 59,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the Minimum and maximum temperature of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 198999
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:39"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 54
+          },
+          {
+            "name": "@test4",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;daily-forecast-to-provide-3-hour-format-for-maximum-and-minimum-temperature",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Daily forecast to provide 3 hour format for maximum and minimum temperature",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4704551201
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1105699
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3275900
+            },
+            "line": 58,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2199499
+            },
+            "line": 59,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the Minimum and maximum temperature of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 226199
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:39"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 54
+          },
+          {
+            "name": "@test4",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-aggregate-rainfall",
+        "keyword": "Scenario",
+        "line": 83,
+        "name": "Summarise aggregate rainfall",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4926014301
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1161000
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 964800
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1967799
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the aggregate rainfall of the selected Wed",
+            "result": {
+              "status": "passed",
+              "duration": 359499
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:42"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 72
+          },
+          {
+            "name": "@test5",
+            "line": 72
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-aggregate-rainfall",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "Summarise aggregate rainfall",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4937920301
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1384100
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 558900
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 6757301
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the aggregate rainfall of the selected Sat",
+            "result": {
+              "status": "passed",
+              "duration": 246100
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:42"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 72
+          },
+          {
+            "name": "@test5",
+            "line": 72
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-aggregate-rainfall",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "Summarise aggregate rainfall",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4645628299
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1174200
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 721100
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2773201
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the aggregate rainfall of the selected Tue",
+            "result": {
+              "status": "passed",
+              "duration": 491300
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:42"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 72
+          },
+          {
+            "name": "@test5",
+            "line": 72
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-aggregate-rainfall",
+        "keyword": "Scenario",
+        "line": 86,
+        "name": "Summarise aggregate rainfall",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4427173501
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2744500
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 692700
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2487101
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the aggregate rainfall of the selected Wed",
+            "result": {
+              "status": "passed",
+              "duration": 200700
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:42"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 72
+          },
+          {
+            "name": "@test5",
+            "line": 72
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-aggregate-rainfall",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "Summarise aggregate rainfall",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4579592800
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1233400
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 895100
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3953700
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the aggregate rainfall of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 240001
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:42"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 72
+          },
+          {
+            "name": "@test5",
+            "line": 72
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-aggregate-rainfall",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "Summarise aggregate rainfall",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4637648100
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1672000
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1077800
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2244201
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the aggregate rainfall of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 260500
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:42"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 72
+          },
+          {
+            "name": "@test5",
+            "line": 72
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-condition",
+        "keyword": "Scenario",
+        "line": 101,
+        "name": "Summarise most dominant condition",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4931493900
+            },
+            "line": 92,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 4792300
+            },
+            "line": 93,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 579001
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1796101
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the dominant condition of the selected Wed",
+            "result": {
+              "status": "passed",
+              "duration": 376400
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:45"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 90
+          },
+          {
+            "name": "@test6",
+            "line": 90
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-condition",
+        "keyword": "Scenario",
+        "line": 102,
+        "name": "Summarise most dominant condition",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4765315100
+            },
+            "line": 92,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2012299
+            },
+            "line": 93,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 825800
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2169000
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the dominant condition of the selected Sat",
+            "result": {
+              "status": "passed",
+              "duration": 290600
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:45"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 90
+          },
+          {
+            "name": "@test6",
+            "line": 90
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-condition",
+        "keyword": "Scenario",
+        "line": 103,
+        "name": "Summarise most dominant condition",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4715390100
+            },
+            "line": 92,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1477500
+            },
+            "line": 93,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1213401
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2835600
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the dominant condition of the selected Tue",
+            "result": {
+              "status": "passed",
+              "duration": 312900
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:45"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 90
+          },
+          {
+            "name": "@test6",
+            "line": 90
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-condition",
+        "keyword": "Scenario",
+        "line": 104,
+        "name": "Summarise most dominant condition",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4351904801
+            },
+            "line": 92,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 8997801
+            },
+            "line": 93,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1862499
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4042600
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the dominant condition of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 701001
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:45"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 90
+          },
+          {
+            "name": "@test6",
+            "line": 90
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-condition",
+        "keyword": "Scenario",
+        "line": 105,
+        "name": "Summarise most dominant condition",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4589274200
+            },
+            "line": 92,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1764000
+            },
+            "line": 93,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 767700
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 6021800
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the dominant condition of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 220300
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:45"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 90
+          },
+          {
+            "name": "@test6",
+            "line": 90
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-condition",
+        "keyword": "Scenario",
+        "line": 106,
+        "name": "Summarise most dominant condition",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4569110000
+            },
+            "line": 92,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2009601
+            },
+            "line": 93,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 959401
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3471999
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the dominant condition of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 310400
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:45"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 90
+          },
+          {
+            "name": "@test6",
+            "line": 90
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-wind-speed-and-direction",
+        "keyword": "Scenario",
+        "line": 119,
+        "name": "Summarise most dominant wind speed and direction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4769056500
+            },
+            "line": 110,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1687000
+            },
+            "line": 111,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 695999
+            },
+            "line": 112,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Fri and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3253500
+            },
+            "line": 113,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the wind speed of the selected Fri",
+            "result": {
+              "status": "passed",
+              "duration": 433200
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:48"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 108
+          },
+          {
+            "name": "@test7",
+            "line": 108
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-wind-speed-and-direction",
+        "keyword": "Scenario",
+        "line": 120,
+        "name": "Summarise most dominant wind speed and direction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4522255500
+            },
+            "line": 110,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1361499
+            },
+            "line": 111,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 748800
+            },
+            "line": 112,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3392400
+            },
+            "line": 113,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the wind speed of the selected Sat",
+            "result": {
+              "status": "passed",
+              "duration": 508501
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:48"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 108
+          },
+          {
+            "name": "@test7",
+            "line": 108
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-wind-speed-and-direction",
+        "keyword": "Scenario",
+        "line": 121,
+        "name": "Summarise most dominant wind speed and direction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4434371401
+            },
+            "line": 110,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1747901
+            },
+            "line": 111,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2286400
+            },
+            "line": 112,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4861999
+            },
+            "line": 113,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the wind speed of the selected Tue",
+            "result": {
+              "status": "passed",
+              "duration": 346400
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:48"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 108
+          },
+          {
+            "name": "@test7",
+            "line": 108
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-wind-speed-and-direction",
+        "keyword": "Scenario",
+        "line": 122,
+        "name": "Summarise most dominant wind speed and direction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4182105099
+            },
+            "line": 110,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 3959999
+            },
+            "line": 111,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 724499
+            },
+            "line": 112,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3073000
+            },
+            "line": 113,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the wind speed of the selected Wed",
+            "result": {
+              "status": "passed",
+              "duration": 227100
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:48"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 108
+          },
+          {
+            "name": "@test7",
+            "line": 108
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-wind-speed-and-direction",
+        "keyword": "Scenario",
+        "line": 123,
+        "name": "Summarise most dominant wind speed and direction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4273776900
+            },
+            "line": 110,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 960900
+            },
+            "line": 111,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2189801
+            },
+            "line": 112,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1782699
+            },
+            "line": 113,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the wind speed of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 315001
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:48"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 108
+          },
+          {
+            "name": "@test7",
+            "line": 108
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;summarise-most-dominant-wind-speed-and-direction",
+        "keyword": "Scenario",
+        "line": 124,
+        "name": "Summarise most dominant wind speed and direction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4620952701
+            },
+            "line": 110,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1243300
+            },
+            "line": 111,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 678500
+            },
+            "line": 112,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2265100
+            },
+            "line": 113,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the wind speed of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 373300
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:48"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 108
+          },
+          {
+            "name": "@test7",
+            "line": 108
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;hide-hourly-forecast",
+        "keyword": "Scenario",
+        "line": 137,
+        "name": "Hide hourly forecast",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 4969056900
+            },
+            "line": 128,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 3024200
+            },
+            "line": 129,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1500699
+            },
+            "line": 130,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Fri and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4021800
+            },
+            "line": 131,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I hide the hourly forecast of the selected Fri",
+            "result": {
+              "status": "passed",
+              "duration": 6301947600
+            },
+            "line": 132,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:71"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 126
+          },
+          {
+            "name": "@test8",
+            "line": 126
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;hide-hourly-forecast",
+        "keyword": "Scenario",
+        "line": 138,
+        "name": "Hide hourly forecast",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 678014099
+            },
+            "line": 128,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1891000
+            },
+            "line": 129,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3567101
+            },
+            "line": 130,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 5543100
+            },
+            "line": 131,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I hide the hourly forecast of the selected Sat",
+            "result": {
+              "status": "passed",
+              "duration": 6005466600
+            },
+            "line": 132,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:71"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 126
+          },
+          {
+            "name": "@test8",
+            "line": 126
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;hide-hourly-forecast",
+        "keyword": "Scenario",
+        "line": 139,
+        "name": "Hide hourly forecast",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 472992101
+            },
+            "line": 128,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1548300
+            },
+            "line": 129,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1149700
+            },
+            "line": 130,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4777200
+            },
+            "line": 131,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I hide the hourly forecast of the selected Tue",
+            "result": {
+              "status": "passed",
+              "duration": 6147796500
+            },
+            "line": 132,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:71"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 126
+          },
+          {
+            "name": "@test8",
+            "line": 126
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;hide-hourly-forecast",
+        "keyword": "Scenario",
+        "line": 140,
+        "name": "Hide hourly forecast",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 490815900
+            },
+            "line": 128,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 3485300
+            },
+            "line": 129,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1640600
+            },
+            "line": 130,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 4614800
+            },
+            "line": 131,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I hide the hourly forecast of the selected Wed",
+            "result": {
+              "status": "passed",
+              "duration": 6155622299
+            },
+            "line": 132,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:71"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 126
+          },
+          {
+            "name": "@test8",
+            "line": 126
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;hide-hourly-forecast",
+        "keyword": "Scenario",
+        "line": 141,
+        "name": "Hide hourly forecast",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 531255401
+            },
+            "line": 128,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1992500
+            },
+            "line": 129,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 619799
+            },
+            "line": 130,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 2185000
+            },
+            "line": 131,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I hide the hourly forecast of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 6123952300
+            },
+            "line": 132,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:71"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 126
+          },
+          {
+            "name": "@test8",
+            "line": 126
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;hide-hourly-forecast",
+        "keyword": "Scenario",
+        "line": 142,
+        "name": "Hide hourly forecast",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 625645700
+            },
+            "line": 128,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1690600
+            },
+            "line": 129,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 799400
+            },
+            "line": 130,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 3587000
+            },
+            "line": 131,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I hide the hourly forecast of the selected Thu",
+            "result": {
+              "status": "passed",
+              "duration": 6467613001
+            },
+            "line": 132,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:71"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 126
+          },
+          {
+            "name": "@test8",
+            "line": 126
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 155,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 440434599
+            },
+            "line": 146,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2312900
+            },
+            "line": 147,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1747000
+            },
+            "line": 148,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 628800
+            },
+            "line": 149,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 656599
+            },
+            "line": 150,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 144
+          },
+          {
+            "name": "@test9",
+            "line": 144
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 156,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2433405399
+            },
+            "line": 146,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 4582199
+            },
+            "line": 147,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1248199
+            },
+            "line": 148,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 547401
+            },
+            "line": 149,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 749400
+            },
+            "line": 150,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 144
+          },
+          {
+            "name": "@test9",
+            "line": 144
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 157,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2264315500
+            },
+            "line": 146,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1340099
+            },
+            "line": 147,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 716900
+            },
+            "line": 148,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 262600
+            },
+            "line": 149,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 310299
+            },
+            "line": 150,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 144
+          },
+          {
+            "name": "@test9",
+            "line": 144
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 158,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2547853500
+            },
+            "line": 146,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 836500
+            },
+            "line": 147,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 543600
+            },
+            "line": 148,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 158400
+            },
+            "line": 149,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 311599
+            },
+            "line": 150,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 144
+          },
+          {
+            "name": "@test9",
+            "line": 144
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 159,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2313571500
+            },
+            "line": 146,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1902500
+            },
+            "line": 147,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 720300
+            },
+            "line": 148,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 218700
+            },
+            "line": 149,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 365000
+            },
+            "line": 150,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 144
+          },
+          {
+            "name": "@test9",
+            "line": 144
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 160,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2689110300
+            },
+            "line": 146,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1319199
+            },
+            "line": 147,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 675900
+            },
+            "line": 148,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 308600
+            },
+            "line": 149,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 366500
+            },
+            "line": 150,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 144
+          },
+          {
+            "name": "@test9",
+            "line": 144
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-error-message-for-any-other-random-city",
+        "keyword": "Scenario",
+        "line": 171,
+        "name": "Verify the error message for any other random city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2439440200
+            },
+            "line": 164,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter an random city name croydon",
+            "result": {
+              "status": "passed",
+              "duration": 1687300
+            },
+            "line": 165,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the message Error retrieving the forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1146960399
+            },
+            "line": 166,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:90"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 162
+          },
+          {
+            "name": "@test10",
+            "line": 162
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-error-message-for-any-other-random-city",
+        "keyword": "Scenario",
+        "line": 172,
+        "name": "Verify the error message for any other random city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 388719500
+            },
+            "line": 164,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter an random city name reading",
+            "result": {
+              "status": "passed",
+              "duration": 1607601
+            },
+            "line": 165,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the message Error retrieving the forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1059521500
+            },
+            "line": 166,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:90"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 162
+          },
+          {
+            "name": "@test10",
+            "line": 162
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-getting-error-message-when-submitting-without-entering-any-input",
+        "keyword": "Scenario",
+        "line": 183,
+        "name": "Verify that the user is getting error message when submitting without entering any input",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 454084099
+            },
+            "line": 176,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I submit without entering any input",
+            "result": {
+              "status": "passed",
+              "duration": 7163100
+            },
+            "line": 177,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the message Error retrieving the forecast",
+            "result": {
+              "status": "passed",
+              "duration": 5130773499
+            },
+            "line": 178,
+            "match": {
+              "location": "C:\\ArunWeather\\acceptanceTesting\\features\\steps\\steps.js:90"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather",
+            "line": 174
+          },
+          {
+            "name": "@test11",
+            "line": 174
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-the-functionality-of-weather-forecasting-application",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify the functionality of weather forecasting application",
+    "tags": [],
+    "uri": "C:\\ArunWeather\\acceptanceTesting\\features\\weatherForecast.feature"
+  }
+]
